@@ -1,4 +1,5 @@
-# docs - Document Everything
+# docs
+## Reminders/useful knowledge/notes
 
 This repo collects accumulated knowledge.
 
