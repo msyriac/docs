@@ -13,7 +13,7 @@ where the experimentation scripts are more frequently IPython
 notebooks. This has the advantage that I can generate useful
 tutorials with little effort.
 
-## Run an IPython notebook over SSH
+## Running an IPython notebook over SSH
 
 IPython can be started on a remote system without a browser.
 You should specify a port of your choice.
@@ -37,4 +37,13 @@ to the chosen local port.
 
 ```
 localhost:8887
+```
+
+## Autoload
+
+IPython magic to auto-reload modules as you work on them
+
+```python
+%load_ext autoreload
+%autoreload 2
 ```
