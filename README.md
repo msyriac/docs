@@ -2,7 +2,7 @@
 
 This repo collects accumulated knowledge.
 
-[python/ipython-notebooks.md]
+[Notebooks](python/ipython-notebooks.md)
 
 
 
