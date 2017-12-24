@@ -6,6 +6,7 @@ This repo collects accumulated knowledge.
 - networks
 - physics
 - productivity
+	- [emacs](./productivity/emacs.md)
 	- [git](./productivity/git.md)
 - python
 	- [ipython-notebooks](./python/ipython-notebooks.md)
