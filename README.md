@@ -2,11 +2,11 @@
 
 This repo collects accumulated knowledge.
 
-- emacs
-- git
 - hpc
 - networks
 - physics
+- productivity
+	- [git](./productivity/git.md)
 - python
 	- [ipython-notebooks](./python/ipython-notebooks.md)
 	- [plots](./python/plots.md)
