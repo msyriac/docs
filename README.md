@@ -2,8 +2,6 @@
 
 This repo collects accumulated knowledge.
 
-[Notebooks](python/ipython-notebooks.md)
-
 - git
 - hpc
 - networks
