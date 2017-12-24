@@ -39,7 +39,7 @@ to the chosen local port.
 localhost:8887
 ```
 
-## Autoload
+## Auto-reload
 
 IPython magic to auto-reload modules as you work on them
 
