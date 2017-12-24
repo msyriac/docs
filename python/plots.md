@@ -6,8 +6,7 @@
 When saving plots to disk, you will want to make sure that the backend used is `Agg`. Otherwise, the plots can take a lot of time to be saved. To set the backend globally, first find your `matplotlibrc` file by doing the following:
 
 
-```
-python
+```python
 import matplotlib
 matplotlib.matplotlib_fname()
 ```
