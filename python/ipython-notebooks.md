@@ -10,7 +10,7 @@ than others. I'm now trying to generally split my code into
 3. experimentation scripts
 
 where the experimentation scripts are more frequently IPython
-notebooks. This has the advantage that you can generate useful
+notebooks. This has the advantage that I can generate useful
 tutorials with little effort.
 
 ## Run an IPython notebook over SSH
