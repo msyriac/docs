@@ -1,4 +1,4 @@
-# Github
+# git
 
 ## Ignore specific files in a commit
 
