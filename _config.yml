@@ -1,1 +1,3 @@
 theme: jekyll-theme-minimal
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
