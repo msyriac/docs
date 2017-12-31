@@ -3,6 +3,9 @@
 
 This repo collects accumulated knowledge.
 
+
+- analysis
+	- [weighted](./analysis/weighted.md)
 - hpc
 - networks
 - physics
