@@ -6,7 +6,7 @@
 
 
 Open a buffer with a specific git revision by entering `C-x v ~`
-and typing the mae of the branch (e.g. `upstream/master`).
+and typing the name of the branch (e.g. `upstream/master`).
 
 [More here](https://stackoverflow.com/questions/25420282/using-emacs-and-magit-to-visit-a-file-in-given-commit-branch-etc)
 
