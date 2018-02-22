@@ -2,8 +2,8 @@
 
 ## My preferred contribution model
 
-Fork, branch and PR. Described here:
-https://github.com/msyriac/orphics/blob/master/CONTRIBUTING.md
+Fork, branch and PR. [Described here](https://github.com/msyriac/orphics/blob/master/CONTRIBUTING.md)
+
 
 ## Ignore specific files in a commit
 
