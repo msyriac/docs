@@ -26,6 +26,12 @@ Once we have the comoving size, we can simply take its reciprocal to get the com
 
 Everything above scales linearly or 1/linearly except for chi(z). So, once you know the R corresponding to a particular ell for a few redshifts, you can do everything else in your head for those redshifts. Below is a plot of the comoving size R corresponding to multipole ell=1000 for a few redshifts of interest.
 
-![Angular wavenumber to comoving size][comoving]
+![Comoving size as a function of redshift][comoving]
 
 [comoving]: comoving.png
+
+One can use the same relations to ask what angle on the sky theta an object of size R should subtend. The answer depends on whether we mean physical or comoving size. Interestingly, an object of fixed physical size doesn't simply get smaller as you put it farther away from us (or at larger redshifts). There is a turnaround at z=1 ; because of the expansion of the universe, objects of the same physical size at higher redshift actually appear larger on the sky above z=1 !
+
+![Angle subtended as a function of redshift][angle]
+
+[angle]: angle.png
