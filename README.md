@@ -4,6 +4,7 @@
 This repo collects accumulated knowledge.
 
 - hpc
+	- [compilers](./hpc/compilers.md)
 - networks
 - physics
 	- [cosmo-sheet](./physics/cosmo-sheet.md)
@@ -15,5 +16,7 @@ This repo collects accumulated knowledge.
 - python
 	- [ipython-notebooks](./python/ipython-notebooks.md)
 	- [plots](./python/plots.md)
+- statistics
+	- [probability](./statistics/probability.md)
 
 
