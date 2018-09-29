@@ -78,3 +78,13 @@ IPython magic to auto-reload modules as you work on them
 |Ctrl-m i	|interrupt kernel|
 |Ctrl-m .	|restart kernel|
 |Ctrl-m h	|show keyboard shortcuts|
+
+## Emacs
+
+I've now stopped running notebooks in the browser since one can do it entirely within emacs using the `ein` package installable from MELPA. The steps involved are:
+
+1. start an ipython notebook server: ``ipython notebook``
+2. get the name of the port and copy the token
+3. In emacs, M-x ein:notebooklist-login once with port and token
+4. Then M-x ein:notebooklist-open with port to open the notebook landing page
+
