@@ -23,20 +23,20 @@ and add to the Python path.
 
 On systems like Niagara, an Intel version of fftw is the default module. This has a bug which makes it impossible to FFT multi-dimensional arrays.
 
-If you are going to compile FFTW yourself, this is what it will typically look like:
+If you are going to compile FFTW yourself, then you have to use gcc, and this is what it will typically look like:
 
 ``
 # single precision
-./configure CC=icc CXX=icc CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-sse --enable-sse2 --enable-avx --enable-avx2 --enable-float --enable-shared --prefix=/home/r/rbond/msyriac/.local/lib
+./configure CC=gcc CXX=g++ CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-sse --enable-sse2 --enable-avx --enable-avx2 --enable-float --enable-shared --prefix=/home/r/rbond/msyriac/.local/lib
 make -j24 CFLAGS=-fPIC
 make install
 make clean
 # double precision
-./configure CC=icc CXX=icc CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-sse2 --enable-avx --enable-avx2 --enable-shared --prefix=/home/r/rbond/msyriac/.local
+./configure CC=gcc CXX=g++ CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-sse2 --enable-avx --enable-avx2 --enable-shared --prefix=/home/r/rbond/msyriac/.local
 make -j24 CFLAGS=-fPIC
 make install
 make clean
-./configure CC=icc CXX=icc CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-long-double --enable-shared --prefix=/home/r/rbond/msyriac/.local
+./configure CC=gcc CXX=g++ CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-long-double --enable-shared --prefix=/home/r/rbond/msyriac/.local
 make -j24 CFLAGS=-fPIC
 make install
 make clean
@@ -45,5 +45,5 @@ make clean
 and pyfftw with
 
 ``
-LDSHARED="icc -shared" CC=icc pip install pyfftw --user --no-binary :all:
+pip install pyfftw --user
 ``
