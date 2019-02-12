@@ -42,3 +42,8 @@ make install
 make clean
 ``
 
+and pyfftw with
+
+``
+LDSHARED="icc -shared" CC=icc pip install pyfftw --user --no-binary :all:
+``
