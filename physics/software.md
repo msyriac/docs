@@ -27,17 +27,17 @@ If you are going to compile FFTW yourself, this is what it will typically look l
 
 ``
 # single precision
-./configure CC=icc CXX=icc --enable-openmp --enable-mpi --enable-sse --enable-sse2 --enable-avx --enable-avx2 --enable-float --enable-shared --prefix=/home/r/rbond/msyriac/.local/lib
-make -j24
+./configure CC=icc CXX=icc CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-sse --enable-sse2 --enable-avx --enable-avx2 --enable-float --enable-shared --prefix=/home/r/rbond/msyriac/.local/lib
+make -j24 CFLAGS=-fPIC
 make install
 make clean
 # double precision
-./configure CC=icc CXX=icc --enable-openmp --enable-mpi --enable-sse2 --enable-avx --enable-avx2 --enable-shared --prefix=/home/r/rbond/msyriac/.local
-make -j24
+./configure CC=icc CXX=icc CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-sse2 --enable-avx --enable-avx2 --enable-shared --prefix=/home/r/rbond/msyriac/.local
+make -j24 CFLAGS=-fPIC
 make install
 make clean
-./configure CC=icc CXX=icc --enable-openmp --enable-mpi --enable-long-double --enable-shared --prefix=/home/r/rbond/msyriac/.local
-make -j24
+./configure CC=icc CXX=icc CFLAGS=-fPIC --enable-openmp --enable-mpi --enable-long-double --enable-shared --prefix=/home/r/rbond/msyriac/.local
+make -j24 CFLAGS=-fPIC
 make install
 make clean
 ``
