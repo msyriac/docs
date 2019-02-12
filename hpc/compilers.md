@@ -25,3 +25,10 @@ amop libsharp.a
 ``
 
 to list the instructions used.
+
+## Show dependencies
+
+``
+ldd file.so
+``
+

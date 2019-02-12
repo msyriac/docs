@@ -18,3 +18,27 @@ CXX=icpc CXXL=icpc LDSHARED="icc -shared" CC=icc python setup.py build_ext -i --
 ``
 
 and add to the Python path.
+
+## FFTW idiosyncracies
+
+On systems like Niagara, an Intel version of fftw is the default module. This has a bug which makes it impossible to FFT multi-dimensional arrays.
+
+If you are going to compile FFTW yourself, this is what it will typically look like:
+
+``
+# single precision
+./configure CC=icc CXX=icc --enable-openmp --enable-mpi --enable-sse --enable-sse2 --enable-avx --enable-avx2 --enable-float --enable-shared --prefix=/home/r/rbond/msyriac/.local/lib
+make -j24
+make install
+make clean
+# double precision
+./configure CC=icc CXX=icc --enable-openmp --enable-mpi --enable-sse2 --enable-avx --enable-avx2 --enable-shared --prefix=/home/r/rbond/msyriac/.local
+make -j24
+make install
+make clean
+./configure CC=icc CXX=icc --enable-openmp --enable-mpi --enable-long-double --enable-shared --prefix=/home/r/rbond/msyriac/.local
+make -j24
+make install
+make clean
+``
+
