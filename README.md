@@ -9,6 +9,7 @@ This repo collects accumulated knowledge.
 	- [cosmo-sheet](./physics/cosmo-sheet.md)
 	- [software](./physics/software.md)
 - productivity
+	- [latex](./productivity/latex.md)
 	- [bash](./productivity/bash.md)
 	- [contributing](./productivity/contributing.md)
 	- [emacs](./productivity/emacs.md)
